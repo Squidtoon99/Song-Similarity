@@ -1,4 +1,5 @@
-# Code written by Figment on 4/14/2020
+# Code written by Figment on 4/15/2020
+# Uses the last.fm/audioscrobbler API
 import requests, numpy
 
 class Song:
