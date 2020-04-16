@@ -42,6 +42,6 @@ async def getSimilarSongs(search):
     result = ""
     # for song in songs: #This code is redundant can shorten
     #    result += song.name + " by " + song.author['name'] + ", " 
-    result = ', '.join([f'{song.name} by {song.author["name"] for song in songs])
+    result = ', '.join([f'{song.name} by {song.author["name"]}' for song in songs])
     # result = result[:-2] fixed redundancy
     return result
