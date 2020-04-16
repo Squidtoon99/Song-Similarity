@@ -1,3 +1,4 @@
+# Code written by Figment on 4/14/2020
 import requests, numpy
 
 class Song:
